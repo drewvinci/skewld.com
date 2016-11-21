@@ -9,7 +9,10 @@ wordpress_sites:
         redirects:
           - www.skewld.dev
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    admin_email: admin@skewld.dev
+    site_install: true
+    site_title: Skewld Studios
+    admin_user: superprof
+    admin_email: admin@skewld.com
     multisite:
       enabled: false
     ssl:
